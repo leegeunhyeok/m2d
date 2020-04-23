@@ -1,22 +1,23 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "m2d",
+  "version": "0.1.0",
+  "description": "Convert Markdown to Docs (MS Word)",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/leegeunhyeok/m2d",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "electron",
+    "markdown",
+    "docs",
+    "document",
+    "convert"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Geunhyeok LEE <dev.ghlee@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^8.2.3"
+    "electron": "^8.2.3",
+    "electron-reload": "^1.5.0"
   }
 }
